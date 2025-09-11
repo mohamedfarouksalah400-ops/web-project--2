@@ -1,0 +1,110 @@
+body{
+	background-image:url("../images/test3.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+#home{
+	background: rgba(255,255,255,0.5);
+	color: #0C529B;
+	padding: 30px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 200%;
+	font-weight: bold;
+}
+.shahd {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 18px;
+}
+a:visited{
+	color:white;
+}
+a:link{
+	color:white;
+}
+#salah ul {
+	background: rgba(255,255,255,0.5);
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	border-radius: 5px;
+	text-align: center;
+}
+#salah ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+#salah ul li a {
+	display: inline;
+	color: #0C529B;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-decoration: bold;
+	font-size: 110%;
+	transition: 0.5s;
+}
+
+#salah ul li a:hover {
+	background: white;
+	color: black;
+	border-radius: 5px;
+	font-size: 120%;
+	transition: 0.5s;
+}
+
+#aiethel{
+	font-size:20px;
+	color: #0C529B;
+}
+#sideMenu {
+	width: 0;
+	height: 100%;
+	overflow-x: hidden;
+	background: #0C529B;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	transition: 0.3s;
+	opacity: 0.7;
+}
+
+#sideMenu ul li {
+	list-style-type: none;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+#sideMenu ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+	transition: 0.3s;
+}
+
+#sideMenu ul li a:hover {
+	color: gray;
+	transition: 0.3s;
+}
+
+.closeBtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px !important;
+}
+#footer {
+	background: none;
+	text-align: center;
+	text-align: bottom;
+	color: white;
+	text-decoration: bold;
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+ 	width: 100%;
+}

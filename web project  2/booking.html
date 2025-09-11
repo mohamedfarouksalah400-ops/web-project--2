@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking</title>
+  <link rel="stylesheet" href="styles/booking.css">
+  <script>
+	function book(){
+		window.alert("Booking successful.")
+	}
+  </script>
+</head>
+<body><br><br><br><br>
+
+  <div id="book">
+  <form>
+	<div id="booking">
+		<h2 align="center">Booking</h2>
+	</div>
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required><br><br>
+	
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time" required><br><br>
+	
+    <label for="court">Court:</label>
+    <select id="court" name="court" required>
+      <option value="1">Court 1</option>
+      <option value="2">Court 2</option>
+      <option value="3">Court 3</option>
+    </select>
+	<br><br><br>
+    <button type="submit" onclick="book()">Book</button>
+  </form>
+  
+  </div>
+  </body>
+</html>

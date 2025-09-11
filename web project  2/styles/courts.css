@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+#courts{
+	background: #0C529B;
+	color: white;
+	padding: 20px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 125%;
+	font-weight: bold;
+	opacity: 0.7;
+}
+.card1 {
+	background: rgba(255,255,255,0.5);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 10px;
+	transition: 0.5s;
+}
+.card2 {
+	background: rgba(255,255,255,0.5);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 10px;
+	transition: 0.5s;
+}
+.card3 {
+	background: rgba(255,255,255,0.5);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 10px;
+	transition: 0.5s;
+}
+
+#slideshow-container1 {
+	width: 20%card1;
+	margin: auto;
+	position: relative;
+}
+#slideshow-container2 {
+	width: 20%card2;
+	margin: auto;
+	position: relative;
+}
+#slideshow-container3 {
+	width: 20%card3;
+	margin: auto;
+	position: relative;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.next {
+	right: 0;
+}
+
+.prev:hover, .next:hover {
+	background-color: black;
+	opacity: 0.8;
+}
+
+.leftcolumn {
+	width: 33.3%;
+	float: left;
+	padding: 0 10px;
+}
+
+.centercolumn {
+	width: 33.3%;
+	float: left;
+}
+
+.rightcolumn {
+	width: 33.3%;
+	float: right;
+	padding-left: 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+	margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .centercolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+ 

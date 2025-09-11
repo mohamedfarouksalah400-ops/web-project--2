@@ -1,0 +1,27 @@
+body{
+	background-image:url("../images/contactus.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+#whitetext {
+	color : white;
+	font-family: calibri;
+	font-size: 20px;
+	text-align: left;
+}
+button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 12px;
+	background-color: #007BFF;
+}
+button:hover {
+    background-color: #555555; 
+}

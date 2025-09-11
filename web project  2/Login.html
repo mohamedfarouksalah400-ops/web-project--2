@@ -1,0 +1,35 @@
+<!DOCTYPE hhtml>
+<html>
+<head>
+	<title>Login form</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/login.css" >
+	<script src="scripts/login.js"></script>
+</head>
+
+<body>
+<div id="log">
+  <h3 align="center">Login</h3>
+  <form onsubmit="return form()" method="post" name="loginForm" action="reservation.html">
+		<label>Email: *</label>
+		<input type="text" name="email" size="25" placeholder="Your Email" />
+		<label>Password: *</label>
+		<input type="password" name="password" placeholder="Your Password" size="25" />
+
+		<div align="center">
+		<input type="submit" value="Login" />
+		<label><input type="checkbox" checked="checked" name="remember"> Remember me </label>
+		</div>
+		<br>
+		<div align="left">
+		<!-- <span> element is used to color a part of a text -->
+		<span class="password"><a href="#" style="color:blue">Forgot password?</a></span>
+		</div>
+		<div align="right">
+		<span class="createaccount">Don't have account? <a href="createaccount.html">Create Account</a></span>
+		</div>
+  </form>
+</div>
+</body>
+</html>

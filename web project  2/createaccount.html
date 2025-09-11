@@ -1,0 +1,41 @@
+<!DOCTYPE hhtml>
+<html>
+<head>
+	<title>Create Account</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/createaccount.css" >
+	<script src="scripts/createaccount.js"></script>
+</head>
+
+<body>
+<div id="create">
+	<h3 align="center">Sign Up</h3>
+	<p align="center">Please fill in this form to create an account.</p>
+	<form onsubmit="return form()" method="post" name="signupForm" action="login.html">
+		<label>First Name: *</label>
+		<input type="text" name="firstName" placeholder="Your First Name" size="25" />
+		<label>Last Name: *</label>
+		<input type="text" name="lastName" placeholder="Your Last Name" size="25" />
+		<label>Email: *</label>
+		<input type="text" name="email" size="25" placeholder="Your Email" />
+		<label>Password: *</label>
+		<input type="password" name="password" placeholder="Your Password" size="25" />
+		<label>Repeat password: *</label>
+		<input type="password" name="repeatpassword" placeholder="Your Password" size="25" />
+		<label>Age:</label>
+		<input type="text" name="age" size="25" placeholder="Your Age" />
+		<label>Mobile:</label>
+		<input type="text" name="mobile" size="25" placeholder="Your Mobile" />
+
+		<div align="center">
+		<input type="submit" value="Create Account" />
+		</div>
+		
+		<label><input type="checkbox" checked="checked" name="remember"> Remember me</label>
+		<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+	</form>
+</div>
+</body>
+</html>

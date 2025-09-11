@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+
+#book {
+	background-color: rgba(255,255,255,0.5);
+	width: 500px;
+	margin: auto;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-align:center;
+	font-size:25px;
+	color:white;
+}
+
+body{
+background-image:url("../images/test3.jpg");
+}
+
+#booking{
+	text-decoration:bold;
+	color:#0C529B;
+	text-align:center;
+	font-size:35px;
+}
+button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	border-radius: 12px;
+	background-color: #007BFF;
+}
+button:hover {
+    background-color: #555555; 
+}

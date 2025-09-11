@@ -1,0 +1,35 @@
+#sideMenu {
+	width: 0;
+	height: 100%;
+	overflow-x: hidden;
+	background: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	transition: 0.3s;
+}
+
+#sideMenu ul li {
+	list-style-type: none;
+	padding-bottom: 20px;
+}
+
+#sideMenu ul li a {
+	text-decoration: none;
+	color: gray;
+	font-size: 24px;
+	transition: 0.3s;
+}
+
+#sideMenu ul li a:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+.closeBtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px !important;
+}
